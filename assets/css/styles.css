@@ -428,6 +428,7 @@ li:before{content:'';display:inline-block;width:12px;height:1px;background:#c7ac
 .card-link--greypink{background-color:#ae8171}
 .card-link--darkgrey{background-color:#414d51}
 .card-link--sepiabw{background-color:#7D695D}
+.card-link--lightsepia{background-color:#44403f}
 .card-title{font-family:'Montserrat', sans-serif;font-weight:600;color:#2d2d2d;text-transform:uppercase;letter-spacing:0.05em}
 
 
