@@ -415,6 +415,20 @@ li:before{content:'';display:inline-block;width:12px;height:1px;background:#c7ac
 .home #intro{position:absolute;z-index:1;bottom:0;left:0;right:0;text-align: center;margin-bottom: 10%;}
 .home #intro h1{color:#fff;font-size:14px;margin-bottom:1px;opacity:0.6} /* turn text overlay on by opacity > 0.0 */
 
+
+
+/* Rotating banner images */
+@media (min-width: 0px) {#Rotating_banner1{background-image: url(../../portfolio/2020/Album_06_DrunenseDuinen/01_hq.jpg);} }       /* A: square image mobile */
+@media (min-width: 641px) {#Rotating_banner1{background-image: url(../../portfolio/2019/Album_01_Yosemite/Yosemite_02_BW.jpg);} }  /* B: landscape image small */
+@media (min-width: 861px) {#Rotating_banner1{background-image: url(../../portfolio/2020/Album_06_DrunenseDuinen/01_hq.jpg);} }     /* A: square image pc half screen */
+@media (min-width: 1170px) {#Rotating_banner1{background-image: url(../../portfolio/2019/Album_01_Yosemite/Yosemite_02_BW.jpg);} } /* B: full screen landscape */
+
+@media (min-width: 0px) {#Rotating_banner2{background-image: url(../../portfolio/2015/Album_01_Lunteren/1.jpg);} }      
+@media (min-width: 641px) {#Rotating_banner2{background-image: url(../../portfolio/2010/Album_01_Noorwegen/1.jpg);} } 
+@media (min-width: 861px) {#Rotating_banner2{background-image: url(../../portfolio/2015/Album_01_Lunteren/1.jpg);} }    
+@media (min-width: 1170px) {#Rotating_banner2{background-image: url(../../portfolio/2010/Album_01_Noorwegen/1.jpg);} }
+
+
 /* Card Colors (main page gallary banners) */
 .card-link--forestgreen{background-color:#334f45}
 .card-link--lightorange{background-color:#C5A179}
@@ -551,12 +565,7 @@ li:before{content:'';display:inline-block;width:12px;height:1px;background:#c7ac
 @media (max-width:640px){#container,.banner-content,#footer,#intro{padding:0 15px;;margin:30px auto}}
 @media (max-width:860px){.contentPage #container,.contentPage .banner-content,.contentPage #footer,.contentPage #intro{width:100%;box-sizing:border-box}}
 @media (max-width:860px){#container{margin:30px auto}}
-	
-	
-	
-	
-	
-	 
+		 
 /*! 
 <!-- style animated logo (signature) -->
 */
