@@ -421,10 +421,17 @@ li:before{content:'';display:inline-block;width:12px;height:1px;background:#c7ac
 @media (min-width: 861px){#Rotating_banner1{background-image: url(../../portfolio/2020/Album_06_DrunenseDuinen/01_hq.jpg);} }     /* A: square image pc half screen */
 @media (min-width: 1170px){#Rotating_banner1{background-image: url(../../portfolio/2019/Album_01_Yosemite/Yosemite_02_BW.jpg);} } /* B: full screen landscape */
 
-@media (min-width: 0px){#Rotating_banner2{background-image: url(../../portfolio/2015/Album_01_Lunteren/1.jpg);} }      
+@media (min-width: 0px){#Rotating_banner2{background-image: url(../../portfolio/2015/Album_01_Lunteren/1.jpg);} }      å
 @media (min-width: 641px){#Rotating_banner2{background-image: url(../../portfolio/2010/Album_01_Noorwegen/1.jpg);} } 
 @media (min-width: 861px){#Rotating_banner2{background-image: url(../../portfolio/2015/Album_01_Lunteren/1.jpg);} }    
 @media (min-width: 1170px){#Rotating_banner2{background-image: url(../../portfolio/2010/Album_01_Noorwegen/1.jpg);} }
+
+@media (min-width: 0px){#Rotating_banner3{background-image: url(../../portfolio/2020/Album_03_VeluweZoom/01_sepia.jpg);} }      
+@media (min-width: 641px){#Rotating_banner3{background-image: url(../../portfolio/2020/Album_01_Ameland/Ameland_007.jpg);} } 
+@media (min-width: 861px){#Rotating_banner3{background-image: url(../../portfolio/2020/Album_01_Ameland/Ameland_007.jpg);} }    
+@media (min-width: 1170px){#Rotating_banner3{background-image: url(../../portfolio/2020/Album_01_Ameland/Ameland_007.jpg);} }
+
+
 
 /* Card Colors (main page gallary banners) */
 .card-link--forestgreen{background-color:#334f45}
