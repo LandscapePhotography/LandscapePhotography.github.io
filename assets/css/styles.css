@@ -583,7 +583,13 @@ li:before{content:'';display:inline-block;width:12px;height:1px;background:#c7ac
 /*! 
 <!-- style animated logo (signature) -->
 */
-.LOGO_ANIMATION {position: absolute;top: 15%;left: 35%;width: 30%;display: none;}
+.LOGO_ANIMATION {position: absolute;top: 15%;display: none;}
+
+@media (min-width: 0px){.LOGO_ANIMATION{left: 25%;width: 50%;} }      
+@media (min-width: 641px){.LOGO_ANIMATION{left: 30%;width: 40%;} } 
+@media (min-width: 861px){.LOGO_ANIMATION{left: 30%;width: 40%;} }    
+@media (min-width: 1170px){.LOGO_ANIMATION{left: 35%;width: 30%;} }
+
 .st0 {stroke: none; fill: rgba(255,255,2555,0); stroke-dasharray: 500;opacity: 10; animation: animate 3s cubic-bezier(0,0.23,1,.1);animation-delay: 0s;}
 .st1 {stroke: none; fill: rgba(255,255,2555,0); stroke-dasharray: 500;opacity: 10; animation: animate 3s cubic-bezier(0,0.23,1,.1);animation-delay: 0.5s;animation-fill-mode: forwards;}
 .st2 {stroke: none; fill: rgba(255,255,2555,0); stroke-dasharray: 500;opacity: 10; animation: animate 3s cubic-bezier(0,0.23,1,.1);animation-delay: 1s;animation-fill-mode: forwards;}
