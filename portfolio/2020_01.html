@@ -8,9 +8,22 @@
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="../assets/mobirise/css/style.css">
   <link rel="stylesheet" href="../assets/mobirise-gallery/style.css"><link rel="stylesheet" href="../assets/mobirise-slider/style.css">
   <link rel="preload" as="style" href="../assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="../assets/mobirise/css/mbr-additional.css" type="text/css">
-  <script> function resizeIFrame(){ var sHeight, frame; frame = document.getElementById("iframe1"); frame.style.height = '0px'; sHeight = document.getElementById('iframe1').contentWindow.document.body.scrollHeight + 80; frame.style.height = sHeight + 'px';}; window.addEventListener('resize', resizeIFrame);</script>
+  <style>
+    #iframe1{height: 6000px;}
+    @media (min-width:200px){#iframe1{height: 1900px;}}
+    @media (min-width:300px){#iframe1{height: 2700px;}}
+    @media (min-width:400px){#iframe1{height: 3500px;}}
+    @media (min-width:500px){#iframe1{height: 4200px;}}
+    @media (min-width:600px){#iframe1{height: 4700px;}}
+    @media (min-width:700px){#iframe1{height: 4500px;}}
+    @media (min-width:800px){#iframe1{height: 4300px;}}
+    @media (min-width:900px){#iframe1{height: 4300px;}}
+    @media (min-width:1000px){#iframe1{height: 4000px;}}
+    @media (min-width:1200px){#iframe1{height: 4500px;}}
+    @media (min-width:1460px){#iframe1{height: 6000px;}}
+</style>
 </head>
-<body id="BODY" onresize="resizeIFrame()">
+<body>
   
 <!-- Nav bar -->
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-165" data-rv-view="0">
@@ -57,7 +70,7 @@
 </section>
 
 <!-- EDIT SRC HERE!! -->
-<iframe name="iframe1" id="iframe1" src="2020_01/page.html" frameborder="0" border="0" cellspacing="0" style="position: absolute; overflow:hidden;height:100%;width:100%" onload="resizeIFrame()" wmode="transparent" scrolling="no"></iframe>
+<iframe name="iframe1" id="iframe1" src="2020_01/page.html" frameborder="0" border="0" cellspacing="0" style="position: absolute; overflow:hidden;width:100%" " wmode="transparent" scrolling="no"></iframe>
 
 <script src="../assets/web/assets/jquery/jquery.min.js"></script><script src="../assets/web/assets/bootstrap3-migrate/bootstrap.min.js"></script><script src="../assets/smooth-scroll/smooth-scroll.js"></script><script src="../assets/masonry/masonry.pkgd.min.js"></script>
 <script src="../assets/imagesloaded/imagesloaded.pkgd.min.js"></script><script src="../assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script><script src="../assets/mobirise/js/script.js"></script><script src="../assets/mobirise-gallery/script.js"></script>
