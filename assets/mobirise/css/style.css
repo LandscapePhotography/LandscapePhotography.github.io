@@ -20,22 +20,7 @@
 
 
 
-/* Card Colors (main page gallary banners) */
-.card-link--forestgreen{background-color:#334f45}
-.card-link--lightorange{background-color:#C5A179}
-.card-link--mossgreen{background-color:#5d5030}
-.card-link--blue{background-color:#8996ae}
-.card-link--beige{background-color:#c7ac7f}
-.card-link--grey{background-color:#8b9499}
-.card-link--darkblue{background-color:#3c465e}
-.card-link--darkred{background-color:#990000}
-.card-link--darkbeige{background-color:#a28c6b}
-.card-link--greypink{background-color:#ae8171}
-.card-link--darkgrey{background-color:#414d51}
-.card-link--sepiabw{background-color:#7D695D}
-.card-link--lightsepia{background-color:#44403f}
-.card-link--sunriseorange{background-color:#B77F53}
-.card-link--browngreen{background-color:#47462a}
+
 .card-title{font-family:'Montserrat', sans-serif;font-weight:600;color:#2d2d2d;text-transform:uppercase;letter-spacing:0.05em}
 .card{float:left;width:33.33333%;padding:0 20px;box-sizing:border-box;margin-bottom:40px;position:relative;padding-bottom:25px;}
 .card img{width:100%;height:auto;box-shadow:0 0 9px rgba(82, 84, 86, 0.2);transition:all ease 0.125s;z-index:-1;position:relative}
