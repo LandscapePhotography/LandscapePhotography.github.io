@@ -340,6 +340,11 @@ html {
 .mbr-navbar--sticky .mbr-navbar__section {
   position: fixed;
 }
+
+.mbr-navbar--sticky2 .mbr-navbar__section {
+  position: absolute;
+}
+
 .mbr-navbar--absolute {
   position: absolute;
 }
@@ -470,12 +475,14 @@ html {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  color: white;
 }
 .mbr-hamburger--open .mbr-hamburger__line:after {
   top: 10px;
   -ms-transform: translatey(-10px) rotate(-45deg);
   -webkit-transform: translatey(-10px) rotate(-45deg);
   transform: translatey(-10px) rotate(-45deg);
+  color: white;
 }
 @media (max-width: 767px) {
   .mbr-hamburger {
