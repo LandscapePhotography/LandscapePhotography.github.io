@@ -1,1 +1,0 @@
-<img class="lazyload" src="../iframe/files/images/icons/placeholder.png" data-src="<?php echo $img; ?>" alt="Photo description"/>
